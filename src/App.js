@@ -3,8 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
+  return ([
+    <div className="myApp" key="MyApp">
+      This is text from my changes!
+    </div>,
+    <div className="App" key="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div>]
   );
 }
 

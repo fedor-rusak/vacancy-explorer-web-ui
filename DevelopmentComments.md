@@ -31,3 +31,13 @@ Folder *src* with js, css and... setupTest.js???
 Command *npm test* is working in some funny watch mode. Press q to quit.
 
 Hmm so my production-built application contains about 300kb of webpack... This is hmm unexpected.
+
+### First change
+
+I get the idea that react is for **simplifying** rendering part of application. Not full-blown framework.
+
+So one detail is that UI is composed of *components*. Which can be described in JSX that is returned by corresponding function (e.g.).
+
+Want to render additional element to one from example? Wrap both of them in brackets and it will work! But test would fail without unique keys...
+
+Thanks to live-reload you can instantly check if everything worked. Pretty cool.
