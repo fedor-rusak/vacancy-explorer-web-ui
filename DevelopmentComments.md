@@ -55,3 +55,15 @@ If we do just rendering. That all the data should be provided by caller.
 But I suppose react has some mechanism inside its components to keep state.
 
 Which makes reactJs sort of stateful rendering library. Sounds like some jQu....
+
+### JS classes
+
+I am dissapointed in JS approach changes with newer versions.
+
+no really.
+
+You have prototype based object-oriented style in your language. Everyrone like whaaaat? Closer to Smalltalk!!! That is what.
+
+And without changing underlying behavior you just add some syntactic sugar and call it classes? That is bullshit.
+
+But whatever. They look like useful way to build components in reat in *standard* manner. 
